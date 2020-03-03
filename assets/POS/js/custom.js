@@ -2452,7 +2452,7 @@ $(document).ready(function() {
         var sub_total_discount_amount = parseFloat($('#sub_total_discount_amount').html()).toFixed(2);
 
         var delivery_charge2 = ($('#delivery_charge').val() != "") ? parseFloat($('#delivery_charge').val()).toFixed(2) : parseFloat(0).toFixed(2);
-        // var delivery_charge = delivery_charge2 * sub_total / 100;
+        var delivery_charge = delivery_charge2 * sub_total / 100;
         
         var delivery_change = delivery_change2 * sub_total / 100;
 

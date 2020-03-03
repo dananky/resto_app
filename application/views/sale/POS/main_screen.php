@@ -1431,7 +1431,7 @@ foreach ($notifications as $single_notification){
                                     <div class="single_row first fix">
                                         <div class="first_column fix"><?php echo lang('total_item'); ?>: <span id="total_items_in_cart_order_details">0</span></div>
                                         <div class="second_column fix"><?php echo lang('sub_total'); ?></div>
-                                        <div class="third_column fix"><?php echo $this->session->userdata('currency'); ?> <span id="sub_total_show_order_details">0.00</span>
+                                        <div class="third_column fix"><span id="sub_total_show_order_details">0.00</span>
                                             <span id="sub_total_order_details" style="display:none;">0.00</span>
                                             <span id="total_item_discount_order_details" style="display:none;">0.00</span>
                                             <span id="discounted_sub_total_amount_order_details" style="display:none;">0.00</span>
@@ -1449,19 +1449,19 @@ foreach ($notifications as $single_notification){
                                     </div>
                                     <div class="single_row forth fix">
                                         <div class="first_column fix"><?php echo lang('total_discount'); ?></div>
-                                        <div class="second_column fix"><?php echo $this->session->userdata('currency'); ?> <span id="sub_total_discount_order_details">0.00</span></div>
+                                        <div class="second_column fix"><span id="sub_total_discount_order_details">0.00</span></div>
                                     </div>
                                     <div class="single_row fifth fix">
-                                        <div class="first_column fix"><?php echo lang('delivery_charge'); ?></div>
+                                        <div class="first_column fix">Service Charge</div>
                                         <div class="second_column fix"><span id="delivery_charge_order_details">0.00</span></div>
                                     </div>  
                                     <div class="single_row fifth fix">
-                                        <div class="first_column fix"><?php echo lang('delivery'); ?></div>
+                                        <div class="first_column fix">Delivery Charge</div>
                                         <div class="second_column fix"><span id="delivery_charge_order_details">0.00</span></div>
                                     </div>
                                     <div class="single_row sixth fix">
                                         <div class="first_column fix"><?php echo lang('total_payable'); ?></div>
-                                        <div class="second_column fix"><?php echo $this->session->userdata('currency'); ?> <span id="total_payable_order_details">0.00</span></div>
+                                        <div class="second_column fix"><span id="total_payable_order_details">0.00</span></div>
                                     </div>
                                 </div>
                             </div>
